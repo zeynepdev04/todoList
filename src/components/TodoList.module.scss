@@ -1,0 +1,44 @@
+.TodoList {
+  padding: 20px;
+
+  .content {
+    h1 {
+      font-size: 4em;
+    }
+
+    form {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      gap: 20px;
+      width: 400px;
+    }
+    // img {
+    //   width: 200px;
+    //   gap: 10px 10px;
+    // }
+    input {
+      margin: 6px 10px;
+      padding: 10px;
+      background-color: rgba(255, 255, 255, 0.733);
+      color: gwhite;
+      border: none;
+      border-radius: 6px;
+    }
+
+    button {
+      margin: 10px 10px;
+      padding: 10px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: #22ca84;
+      }
+    }
+  }
+}
